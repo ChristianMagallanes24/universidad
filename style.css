@@ -329,31 +329,56 @@ font-family: 'Nunito', sans-serif;
 
 .study-careers-container{
 padding: 50px;
-
+flex-direction: column;
 display: flex;
 justify-content: center;
-align-items: center;
+
+
 gap: 30px;
 }
 .study-careers-contenido{
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   gap: 30px;
   
   
+}
+.aa{
+  display: flex;
+  gap: 30px;
 }
 .crs{
   display: flex;
+  flex-direction: column;
   gap: 30px;
-  
 }
-
-.administration{
+.titulo-careers{
+  color: #fff;
+  font-family: 'Nunito', sans-serif;
+}
+.btn-careers{
+  border: solid #fff;
+  border-radius: 20px;
+  padding: 5px 50px;
+  color: #fff;
+  background-color:#FFB749;
+  font-family: 'Nunito', sans-serif;
+}
+.administration {
+  display: flex;
+  justify-content: start;
+  align-items: flex-start; /* Alinea los elementos en la parte superior */
   width: 400px;
-  height: 600px;
+  height: 450px;
   border-radius: 10px;
   overflow: hidden;
+  background-size: 100%;
+  background-image: linear-gradient(rgba(2, 85, 125, 0.116), rgba(2, 85, 125, 0.5)), url(./assets/IMAGE\ \ CATEGORY\ ADMINISTRATION.jpg);
+}
 
+.careers-a {
+  margin: 50px 50px ;
+  align-self: flex-end; /* Alinea este elemento al final del contenedor padre */
 }
 .img-careers{
   width: 100%;
@@ -361,18 +386,28 @@ gap: 30px;
 }
 
 .accounting{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start; /* Alinea los elementos en la parte superior */
   width: 400px;
-  height: 600px;
+  height: 450px;
   border-radius: 10px;
   overflow: hidden;
+  background-size: 100%;
+  background-image: linear-gradient(rgba(2, 85, 125, 0.116), rgba(2, 85, 125, 0.5)), url(./assets/IMAGE\ \ CATEGORY\ ACCOUNTING.jpg);
 
 }
 
 .architecture{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
 width: 830px;
-height: 300px;
+height: 240px;
 border-radius: 10px;
 overflow: hidden;
+background-size: 100%;
+background-image: linear-gradient(rgba(2, 85, 125, 0.116), rgba(2, 85, 125, 0.5)), url(./assets/IMAGE\ \ CATEGORY\ ARCHITECTURE.jpg);
 }
 
 .study-careers2{
@@ -382,26 +417,41 @@ overflow: hidden;
 }
 
 .mathematics{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
   width: 600px;
-  height: 300px;
+  height: 240px;
   margin-bottom: 10px;
   border-radius: 10px;
 overflow: hidden;
+background-size: 100%;
+background-image: linear-gradient(rgba(2, 85, 125, 0.116), rgba(2, 85, 125, 0.5)), url(./assets/IMAGE\ \ CATEGORY\ MATHEMATICS.jpg);
 }
 
 .programing{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
   width: 600px;
-  height: 300px;
+  height: 240px;
   margin-bottom: 10px;
   border-radius: 10px;
 overflow: hidden;
+background-size: 100%;
+background-image: linear-gradient(rgba(2, 85, 125, 0.116), rgba(2, 85, 125, 0.5)), url(./assets/IMAGE\ \ CATEGORY\ PROGRAMMING.jpg);
 }
 
 .biology{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
   width: 600px;
-  height: 300px;
+  height: 240px;
   border-radius: 10px;
 overflow: hidden;
+background-size: 100%;
+background-image: linear-gradient(rgba(2, 85, 125, 0.116), rgba(2, 85, 125, 0.5)), url(./assets/IMAGE\ \ CATEGORY\ BIOLOGY.jpg);
 }
 .img-careers2{
   height: 100%;
@@ -427,4 +477,68 @@ overflow: hidden;
   font-size: 40px;
   color: #02557D;
   font-family: 'Nunito', sans-serif;
+}
+
+/* our team */
+.cards-team{
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 50px;
+background-color: #E5E5E5;
+padding: 50px;
+}
+.card-team{
+  background-color: #fff;
+  text-align: center;
+  width: 320px;
+  
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.team-xd{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.titulo-team{
+  font-family: 'Nunito', sans-serif;
+}
+span{
+  
+}
+.btn-team{
+  border: solid #FFB749;
+  font-family: 'Nunito', sans-serif;
+  color: #FFB749;
+  border-radius: 20px;
+  width: 40%;
+  padding: 5px 20px;
+  background-color: #fff;
+  margin: 10px;
+}
+.imagen-card{
+  border-radius: 8px 8px 0px 0px;
+  height: 150px;
+  background-size: 100%;
+background-image: url(./assets/IMAGE\ BACKGROUND\ CARD\ TEAM\ \ \(1\).jpg);
+}
+.perfil-team{
+  position: relative;
+  bottom: 90px;
+  left: 85px;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: solid #fff;
+}
+.perfil-team img{
+  width: 100%;
 }
